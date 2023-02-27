@@ -1,0 +1,46 @@
+@import url('http://fonts.cdnfonts.com/css/futura');
+
+/* body */
+body {
+    background-image: url("old-paper.jpg");
+    font-family: "Futura", sans-serif;
+    background-size: 100%;
+    margin: 10%;
+}
+
+/* theme header tags */
+h1, h2, h3, h4, h5 {
+    font-family: "Futura", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+}
+/* theme paragraphs */
+p {
+    font-size: 130%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+/* image styling */
+img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(252, 165, 67);
+    border-radius: 5%;
+    opacity: 0.6;
+}
+
+/* there is no caption */
+.caption, .caption2 {
+    font-weight: bold;
+    font-size: 50%;
+    text-align: center;
+}
+
+/* links */
+a {
+    color: black;
+    font-size: 100%;
+    font-style: italic;
+}
